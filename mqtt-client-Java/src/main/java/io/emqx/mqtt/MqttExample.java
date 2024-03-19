@@ -7,7 +7,7 @@ import java.io.IOException;
 public class MqttExample implements MqttCallback {
 
     public static void main(String[] args) {
-        String broker = "tcp://broker.emqx.io:1883";
+        String broker = "tcp://localhost:1883";
         int qos = 0;
         String action = "publish";
         String topic = "test/topic";
